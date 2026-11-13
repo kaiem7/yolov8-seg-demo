@@ -1,0 +1,12 @@
+# 深度学习框架与分割模型
+ultralytics>=8.4.0
+
+# 网页界面
+gradio>=6.0
+pytz
+
+# 说明：
+#   torch / torchvision 由 ultralytics 自动安装（CPU 版）。
+#   如果需要 GPU 加速，先单独装对应 CUDA 版本的 torch 再装 ultralytics：
+#       pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#   本机验证环境：Python 3.12.10 + torch 2.11.0+cu128 + RTX 5060 Laptop (8GB)
